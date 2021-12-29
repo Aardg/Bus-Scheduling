@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-trips = pd.read_csv("traveltime_dir.csv")
+trips = pd.read_csv("traveltime_dir_9am.csv")
 
 class bus:
 
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 			if newbus.onbreak!=1 and (newbus.pos!='N') and newbus.pos!=trips['startpos'][i]:
 				print("diff pos")
 				continue
-			if newbus.onbreak==1 and trips['starttime'][i] - newbus.shift_break_start >= 120 and trips['startpos'][i]!='A':
+			if newbus.onbreak==1 and ((trips['starttime'][i] - newbus.shift_break_start >= 105 and trips['starttime'][i] - newbus.shift_break_start<= 150) or trips['starttime'][i] - newbus.shift_break_start>=270 ) and trips['startpos'][i]!='A':
 				
 				print(trips['starttime'][i] - newbus.shift_break_start)
 				newbus.onbreak=0
@@ -192,7 +192,7 @@ if __name__ == "__main__":
 		}
 	print(num)
 	print([trips['trips'][i] for i in range(len(done)) if done[i]==0])
-	with open("newbuswise/buswise_9hrs.json", "w") as outfile: 
+	with open("All_results/newbuswise/buswise_9hrs_9am.json", "w") as outfile: 
 		json.dump(result, outfile,indent=4)
 	
 	print("toal number of trips ",total_trips)

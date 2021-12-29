@@ -5,22 +5,22 @@ import pandas as pd
 import numpy as np
 import operator
 
-f = open("newbuswise/buswise_9hrs.json")
-trips = pd.read_csv("traveltime_dir.csv")
+f = open("All_results/newbuswise/buswise_9hrs_9am.json")
+trips = pd.read_csv("traveltime_dir_9am.csv")
 data = json.load(f)
 y_pos=1
 labels=[]
 lab_pos=[]
 
 
-for i in range(0,26):
+for i in range(9,35):
 
     if i<10:
-        labels.append('0'+str(i)+':00')
+        labels.append('0'+str(i%24)+':00')
     else:
-        labels.append(str(i)+':00')
+        labels.append(str(i%24)+':00')
 
-    lab_pos.append((i)*60)
+    lab_pos.append((i-9)*60)
 
 tot_wait=[]
 for d in data:
@@ -51,7 +51,7 @@ for d in sorted_indices:
         if tf==1:
             starttimes[-1]+=1440
         idx=0
-        while idx<=len(trips["trips"]):
+        while idx<len(trips["trips"]):
             if t==trips["trips"][idx]:
                 runtimes.append(trips["traveltime"][idx])
                 buftimes.append(trips["waittime"][idx])

@@ -1,0 +1,697 @@
+{
+    "busno_1": {
+        "starting position": "K",
+        "final pos": "K",
+        "trips": [
+            "AJ_UP_0",
+            "AK_DN_105",
+            "AK_UP_255",
+            "AJ_DN_360",
+            "AK_UP_555",
+            "AJ_DN_660",
+            "AJ_UP_750",
+            "AK_DN_870"
+        ],
+        "busytill": 960,
+        "traveltime": 795,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            90,
+            80,
+            75,
+            85,
+            80,
+            90,
+            80
+        ],
+        "breakstart": 450,
+        "breakend": 555
+    },
+    "busno_2": {
+        "starting position": "K",
+        "final pos": "J",
+        "trips": [
+            "AK_UP_15",
+            "AJ_DN_120",
+            "AJ_UP_240",
+            "AK_DN_375",
+            "AK_UP_585",
+            "AJ_DN_690",
+            "AJ_UP_780",
+            "AJ_DN_900"
+        ],
+        "busytill": 990,
+        "traveltime": 795,
+        "waittimes": [],
+        "runtimes": [
+            80,
+            75,
+            85,
+            85,
+            85,
+            80,
+            90,
+            75
+        ],
+        "breakstart": 480,
+        "breakend": 585
+    },
+    "busno_3": {
+        "starting position": "J",
+        "final pos": "J",
+        "trips": [
+            "AJ_UP_30",
+            "AK_DN_135",
+            "AK_UP_315",
+            "AJ_DN_420",
+            "AJ_UP_630",
+            "AJ_DN_750",
+            "AJ_UP_840",
+            "AJ_DN_960"
+        ],
+        "busytill": 1050,
+        "traveltime": 825,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            90,
+            80,
+            85,
+            100,
+            80,
+            90,
+            75
+        ],
+        "breakstart": 525,
+        "breakend": 630
+    },
+    "busno_4": {
+        "starting position": "K",
+        "final pos": "K",
+        "trips": [
+            "AK_UP_45",
+            "AJ_DN_150",
+            "AJ_UP_300",
+            "AK_DN_405",
+            "AK_UP_615",
+            "AJ_DN_720",
+            "AJ_UP_810",
+            "AK_DN_930"
+        ],
+        "busytill": 1020,
+        "traveltime": 795,
+        "waittimes": [],
+        "runtimes": [
+            80,
+            75,
+            85,
+            85,
+            85,
+            80,
+            90,
+            80
+        ],
+        "breakstart": 510,
+        "breakend": 615
+    },
+    "busno_5": {
+        "starting position": "J",
+        "final pos": "J",
+        "trips": [
+            "AJ_UP_60",
+            "AK_DN_165",
+            "AK_UP_375",
+            "AJ_DN_480",
+            "AJ_UP_690",
+            "AK_DN_795",
+            "AK_UP_915",
+            "AJ_DN_1020"
+        ],
+        "busytill": 1110,
+        "traveltime": 810,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            90,
+            80,
+            85,
+            90,
+            85,
+            70,
+            75
+        ],
+        "breakstart": 585,
+        "breakend": 690
+    },
+    "busno_6": {
+        "starting position": "K",
+        "final pos": "K",
+        "trips": [
+            "AK_UP_75",
+            "AJ_DN_180",
+            "AJ_UP_360",
+            "AK_DN_465",
+            "AK_UP_705",
+            "AJ_DN_810",
+            "AJ_UP_900",
+            "AK_DN_1050"
+        ],
+        "busytill": 1140,
+        "traveltime": 810,
+        "waittimes": [],
+        "runtimes": [
+            80,
+            75,
+            85,
+            105,
+            85,
+            80,
+            85,
+            80
+        ],
+        "breakstart": 585,
+        "breakend": 705
+    },
+    "busno_7": {
+        "starting position": "J",
+        "final pos": "J",
+        "trips": [
+            "AJ_UP_90",
+            "AK_DN_210",
+            "AK_UP_405",
+            "AJ_DN_510",
+            "AJ_UP_720",
+            "AK_DN_825",
+            "AK_UP_975",
+            "AJ_DN_1080"
+        ],
+        "busytill": 1170,
+        "traveltime": 810,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            90,
+            80,
+            85,
+            90,
+            85,
+            70,
+            75
+        ],
+        "breakstart": 615,
+        "breakend": 720
+    },
+    "busno_8": {
+        "starting position": "K",
+        "final pos": "K",
+        "trips": [
+            "AK_UP_105",
+            "AJ_DN_240",
+            "AJ_UP_390",
+            "AK_DN_495",
+            "AK_UP_735",
+            "AJ_DN_840",
+            "AJ_UP_960",
+            "AK_DN_1110"
+        ],
+        "busytill": 1200,
+        "traveltime": 810,
+        "waittimes": [],
+        "runtimes": [
+            80,
+            75,
+            85,
+            105,
+            85,
+            70,
+            85,
+            80
+        ],
+        "breakstart": 615,
+        "breakend": 735
+    },
+    "busno_9": {
+        "starting position": "K",
+        "final pos": "K",
+        "trips": [
+            "AJ_UP_120",
+            "AK_DN_270",
+            "AK_UP_435",
+            "AJ_DN_540",
+            "AK_UP_765",
+            "AK_DN_990",
+            "AK_UP_1095",
+            "AK_DN_1185"
+        ],
+        "busytill": 1275,
+        "traveltime": 795,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            85,
+            85,
+            85,
+            85,
+            80,
+            70,
+            80
+        ],
+        "breakstart": 645,
+        "breakend": 765
+    },
+    "busno_10": {
+        "starting position": "K",
+        "final pos": "K",
+        "trips": [
+            "AK_UP_135",
+            "AJ_DN_300",
+            "AJ_UP_420",
+            "AK_DN_555",
+            "AK_UP_795",
+            "AJ_DN_1140",
+            "AJ_UP_1230",
+            "AK_DN_1335"
+        ],
+        "busytill": 1425,
+        "traveltime": 825,
+        "waittimes": [],
+        "runtimes": [
+            80,
+            75,
+            100,
+            105,
+            85,
+            75,
+            85,
+            80
+        ],
+        "breakstart": 675,
+        "breakend": 795
+    },
+    "busno_11": {
+        "starting position": "K",
+        "final pos": "J",
+        "trips": [
+            "AJ_UP_150",
+            "AK_DN_330",
+            "AK_UP_465",
+            "AJ_DN_570",
+            "AK_UP_825",
+            "AK_DN_1155",
+            "AK_UP_1245",
+            "AJ_DN_1350"
+        ],
+        "busytill": 1440,
+        "traveltime": 795,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            85,
+            85,
+            85,
+            85,
+            80,
+            70,
+            75
+        ],
+        "breakstart": 675,
+        "breakend": 825
+    },
+    "busno_12": {
+        "starting position": "K",
+        "final pos": "K",
+        "trips": [
+            "AK_UP_165",
+            "AJ_DN_390",
+            "AJ_UP_480",
+            "AJ_DN_600",
+            "AK_UP_855",
+            "AJ_DN_1170",
+            "AJ_UP_1260",
+            "AK_DN_1365"
+        ],
+        "busytill": 1455,
+        "traveltime": 810,
+        "waittimes": [],
+        "runtimes": [
+            80,
+            75,
+            100,
+            85,
+            80,
+            75,
+            85,
+            80
+        ],
+        "breakstart": 705,
+        "breakend": 855
+    },
+    "busno_13": {
+        "starting position": "J",
+        "final pos": "K",
+        "trips": [
+            "AJ_UP_180",
+            "AK_DN_435",
+            "AK_UP_645",
+            "AK_DN_765",
+            "AJ_UP_1140",
+            "AK_DN_1245",
+            "AK_UP_1335",
+            "AK_DN_1425"
+        ],
+        "busytill": 1515,
+        "traveltime": 810,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            105,
+            85,
+            85,
+            85,
+            80,
+            75,
+            80
+        ],
+        "breakstart": 870,
+        "breakend": 1140
+    },
+    "busno_14": {
+        "starting position": "J",
+        "final pos": "K",
+        "trips": [
+            "AK_UP_195",
+            "AJ_DN_450",
+            "AJ_UP_570",
+            "AK_DN_705",
+            "AJ_UP_1080",
+            "AJ_DN_1200",
+            "AJ_UP_1290",
+            "AK_DN_1395"
+        ],
+        "busytill": 1485,
+        "traveltime": 825,
+        "waittimes": [],
+        "runtimes": [
+            80,
+            85,
+            100,
+            85,
+            85,
+            75,
+            85,
+            80
+        ],
+        "breakstart": 810,
+        "breakend": 1080
+    },
+    "busno_15": {
+        "starting position": "J",
+        "final pos": "K",
+        "trips": [
+            "AJ_UP_450",
+            "AK_DN_585",
+            "AK_UP_1035",
+            "AK_DN_1215",
+            "AJ_UP_1410",
+            "AK_DN_75"
+        ],
+        "busytill": 1620,
+        "traveltime": 630,
+        "waittimes": [],
+        "runtimes": [
+            100,
+            105,
+            70,
+            80,
+            85,
+            90
+        ],
+        "breakstart": 1305,
+        "breakend": 1410
+    },
+    "busno_16": {
+        "starting position": "K",
+        "final pos": "C",
+        "trips": [
+            "AK_UP_495",
+            "AK_DN_615",
+            "AK_UP_1155",
+            "AJ_DN_1260"
+        ],
+        "busytill": 1350,
+        "traveltime": 405,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            105,
+            70,
+            75
+        ],
+        "breakstart": 1350,
+        "breakend": 0
+    },
+    "busno_17": {
+        "starting position": "K",
+        "final pos": "J",
+        "trips": [
+            "AJ_UP_510",
+            "AJ_DN_630",
+            "AJ_UP_1020",
+            "AJ_DN_1230",
+            "AK_UP_1425",
+            "AJ_DN_90"
+        ],
+        "busytill": 1620,
+        "traveltime": 600,
+        "waittimes": [],
+        "runtimes": [
+            100,
+            85,
+            85,
+            75,
+            75,
+            75
+        ],
+        "breakstart": 1320,
+        "breakend": 1425
+    },
+    "busno_18": {
+        "starting position": "K",
+        "final pos": "C",
+        "trips": [
+            "AK_UP_525",
+            "AK_DN_645",
+            "AK_UP_1185",
+            "AK_DN_1275"
+        ],
+        "busytill": 1365,
+        "traveltime": 405,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            105,
+            70,
+            80
+        ],
+        "breakstart": 1365,
+        "breakend": 0
+    },
+    "busno_19": {
+        "starting position": "J",
+        "final pos": "C",
+        "trips": [
+            "AJ_UP_540",
+            "AK_DN_675",
+            "AK_UP_1215",
+            "AK_DN_1305"
+        ],
+        "busytill": 1395,
+        "traveltime": 405,
+        "waittimes": [],
+        "runtimes": [
+            100,
+            85,
+            70,
+            80
+        ],
+        "breakstart": 1395,
+        "breakend": 0
+    },
+    "busno_20": {
+        "starting position": "J",
+        "final pos": "J",
+        "trips": [
+            "AJ_UP_600",
+            "AK_DN_735",
+            "AK_UP_1275",
+            "AJ_DN_1380"
+        ],
+        "busytill": 1470,
+        "traveltime": 405,
+        "waittimes": [],
+        "runtimes": [
+            100,
+            85,
+            70,
+            75
+        ],
+        "breakstart": 0,
+        "breakend": 0
+    },
+    "busno_21": {
+        "starting position": "J",
+        "final pos": "C",
+        "trips": [
+            "AJ_UP_660",
+            "AJ_DN_780",
+            "AJ_UP_1170",
+            "AJ_DN_1290"
+        ],
+        "busytill": 1380,
+        "traveltime": 390,
+        "waittimes": [],
+        "runtimes": [
+            90,
+            80,
+            85,
+            75
+        ],
+        "breakstart": 1380,
+        "breakend": 0
+    },
+    "busno_22": {
+        "starting position": "K",
+        "final pos": "J",
+        "trips": [
+            "AK_UP_675",
+            "AJ_DN_1320"
+        ],
+        "busytill": 1410,
+        "traveltime": 195,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            75
+        ],
+        "breakstart": 0,
+        "breakend": 0
+    },
+    "busno_23": {
+        "starting position": "J",
+        "final pos": "J",
+        "trips": [
+            "AJ_UP_1200",
+            "AJ_DN_1410"
+        ],
+        "busytill": 1500,
+        "traveltime": 195,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            75
+        ],
+        "breakstart": 0,
+        "breakend": 0
+    },
+    "busno_24": {
+        "starting position": "K",
+        "final pos": "J",
+        "trips": [
+            "AK_UP_1305",
+            "AJ_DN_0"
+        ],
+        "busytill": 1530,
+        "traveltime": 180,
+        "waittimes": [],
+        "runtimes": [
+            70,
+            75
+        ],
+        "breakstart": 0,
+        "breakend": 0
+    },
+    "busno_25": {
+        "starting position": "J",
+        "final pos": "K",
+        "trips": [
+            "AJ_UP_1320",
+            "AK_DN_15"
+        ],
+        "busytill": 1560,
+        "traveltime": 210,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            90
+        ],
+        "breakstart": 0,
+        "breakend": 0
+    },
+    "busno_26": {
+        "starting position": "J",
+        "final pos": "J",
+        "trips": [
+            "AJ_UP_1350",
+            "AJ_DN_30"
+        ],
+        "busytill": 1560,
+        "traveltime": 195,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            75
+        ],
+        "breakstart": 0,
+        "breakend": 0
+    },
+    "busno_27": {
+        "starting position": "K",
+        "final pos": "K",
+        "trips": [
+            "AK_UP_1365",
+            "AK_DN_45"
+        ],
+        "busytill": 1590,
+        "traveltime": 195,
+        "waittimes": [],
+        "runtimes": [
+            75,
+            90
+        ],
+        "breakstart": 0,
+        "breakend": 0
+    },
+    "busno_28": {
+        "starting position": "J",
+        "final pos": "J",
+        "trips": [
+            "AJ_UP_1380",
+            "AJ_DN_60"
+        ],
+        "busytill": 1590,
+        "traveltime": 195,
+        "waittimes": [],
+        "runtimes": [
+            85,
+            75
+        ],
+        "breakstart": 0,
+        "breakend": 0
+    },
+    "busno_29": {
+        "starting position": "K",
+        "final pos": "A",
+        "trips": [
+            "AK_UP_1395"
+        ],
+        "busytill": 1485,
+        "traveltime": 90,
+        "waittimes": [],
+        "runtimes": [
+            75
+        ],
+        "breakstart": 0,
+        "breakend": 0
+    }
+}

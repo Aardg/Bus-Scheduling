@@ -1,7 +1,7 @@
 import json
 import csv
 
-f = open("Buswise/Buswise results/buswise_9hrs_4pm.json")
+f = open("All_results/newbuswise/buswise_9hrs.json")
 
 data = json.load(f)
 pos = {
@@ -71,7 +71,7 @@ for d in data:
     file_data["distance travelled"].append(dist)
 
 
-with open("Buswise/summary_buswise_9.5hrs.csv", "w") as outfile:
+with open("All_results/newbuswise/summary_buswise_9hrs.csv", "w") as outfile:
     writer = csv.writer(outfile)
     writer.writerow(file_data.keys())
     writer.writerows(zip(*file_data.values()))
