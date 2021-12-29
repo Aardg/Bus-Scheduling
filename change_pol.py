@@ -1,4 +1,4 @@
-# code to chanfe the starting point of schedule to to any other point
+# code to change the starting point of schedule to to any other point
 
 import pandas as pd
 
