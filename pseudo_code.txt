@@ -1,0 +1,45 @@
+=======================================================================
+
+* for each trip of the bus, check if it can be eliminated, if all trips can be eliminated, then eliminate bus
+
+step 1 eliminating trips : 
+    1. check if a bus scheduled to travel from the same stop to the same destination within 15 mins,   
+            => trip pair marked
+
+ if a bus has 0 trips, report as eliminated, print timeline graph
+
+step 2
+remaining buses : replacement policy 
+    2a. check if any trip has starting time less than first trip after minimum charge, if so 
+        check if current trip after charge starts within a gap of 15 minutes of the trip we are trying to eliminate
+
+ if a bus has 0 trips, report as eliminated, print timeline graph
+
+
+    2b. in increasing order of buses' trips : 
+            for each trip of the bus, check if it can be eliminated, if all trips can be eliminated, then eliminate bus
+
+
+# Stop condition : number of buses <=20
+
+check if trip adjustable(t) : 
+    check if we can add trip t to another bus as it is. 
+        if yes : print adjusted flag
+
+    given a trip, look for bus that has a trip within +-15 min of trip t, 
+    if yes : 
+        check if we can either replace with t or eliminate t
+        (the time gap between the neighbouring trips(in the schedule) needs to be between 30 minutes)
+    
+        if we replace with t, check if the next trip(t2) of the bus, cannot be accomodated, if so:
+            call line 42 with t2
+            if returns false :
+                return false
+
+        if no next trip :
+            return true
+    
+    if no:
+        return false
+
+    

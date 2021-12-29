@@ -1,0 +1,40 @@
+2 level sort 
+    number of trips
+    starttime of first shift
+    
+
+====================
+
+1.
+charging queue concept : check charging queue
+first check running bus 
+second check charging queue
+third add new bus
+
+2. 
+buses need to come out of charging queue in the sequence they go in
+
+3. 
+Do not ed with dark lines
+
+4.
+redo point 1. with first and second switched
+
+======================
+
+1a. bus wise : give one bus the max amount of trips, 17 hr maxim, 10 hrs in one shift
+1b. run existing algo with 17 hr maxim, 10 hrs in one shift
+
+2. change starting times to 9am and 4pm, and check 1a and 1b
+
+3. order of selecting a bus redone using a min heap over bus start times of available buses, and any bus
+    any bus that has waited for 60min+ can go into charging 
+
+=============================================================
+
+ask prashant sir : 
+    from a particular depo to airport route, can the bus gap change from 30 minutes to 1 hour,
+    or reduce from 1 hour gap to 45 minute gap
+
+
+4pm and 9am start times
