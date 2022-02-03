@@ -1,8 +1,8 @@
 import pandas as pd
 import json
 
-trips = pd.read_csv("traveltime_dir.csv")
-
+trips = pd.read_csv("traveltime_dir_4pm.csv")
+trips=trips.sort_values(by=['starttime'])
 class bus:
 
 	start_time=-1
@@ -44,27 +44,26 @@ if __name__ == "__main__":
 	allbus=[]
 	total=0
 	done=[0]*160
-	
+
 	while total<len(trips['trips']):
 
 		newbus=bus()
 		print("=======================newbus")
-		for i in range(len(trips['trips'])):
-			if newbus.traveltime_org>=1050:
-				print("=======bus done for the day")
-				break
-
-			if newbus.onbreak==1:
-				print(newbus.onbreak,newbus.shift_break_start,trips['starttime'][i])
+		i=0
+		while i in range(len(trips['trips'])):
+			print(i)
 			if done[i]==1:
-				print("trip done")
+				print("done ",trips['trips'][i], i)
+				i+=1
 				continue
 
 			if newbus.onbreak!=1 and (newbus.pos!='N') and newbus.pos!=trips['startpos'][i]:
-				print("diff pos")
+				# print("diff pos")
+				i+=1
 				continue
-			if newbus.onbreak==1 and ((trips['starttime'][i] - newbus.shift_break_start >= 105 and trips['starttime'][i] - newbus.shift_break_start<= 150) or trips['starttime'][i] - newbus.shift_break_start>=270 ) and trips['startpos'][i]!='A':
-				
+
+			if newbus.onbreak==1 and trips['startpos'][i]!='A' and ((trips['starttime'][i]-newbus.shift_break_start >= 120 and trips['starttime'][i]-newbus.shift_break_start <= 180) or (trips['starttime'][i]-newbus.shift_break_start >= 300 )):
+				print("assigned")
 				print(trips['starttime'][i] - newbus.shift_break_start)
 				newbus.onbreak=0
 				newbus.shift_break_end = trips['starttime'][i]
@@ -81,9 +80,10 @@ if __name__ == "__main__":
 				newbus.traveltime_org+=trips["total_time"][i]
 				done[i]=1
 				total+=1
+				i+=1
 				continue
 			
-			if newbus.pos!='A' and newbus.traveltime + 2*trips['total_time'][i] >=540:
+			if newbus.pos!='A' and newbus.traveltime + 2*trips['total_time'][i] >540:
 				if newbus.shift_break_end!=0:
 					break
 				print("=========================too much",newbus.traveltime + 2*trips['total_time'][i],newbus.busytill)
@@ -91,11 +91,14 @@ if __name__ == "__main__":
 				newbus.pos='C'
 				newbus.onbreak=1
 				newbus.traveltime = 0
+				# i=0
+				continue
 
 			
 	
 			if newbus.pos=='N' and trips['startpos'][i]!='A':
 				
+				print("assigned")
 				newbus.start_time=trips["starttime"][i]
 				newbus.start_time_org=trips["starttime"][i]
 
@@ -110,11 +113,13 @@ if __name__ == "__main__":
 				newbus.traveltime_org+=trips["total_time"][i]
 				done[i]=1
 				total+=1
+				i+=1
 				continue
 
 			else:
 				if newbus.pos == trips['startpos'][i] and newbus.busytill <= trips['starttime'][i]:
 					
+					print("assigned")
 					newbus.busytill = trips["starttime"][i] + trips["total_time"][i]
 
 					newbus.dir=trips['dir'][i]
@@ -129,7 +134,9 @@ if __name__ == "__main__":
 
 					done[i]=1
 					total+=1
-
+					i+=1
+					continue
+			i+=1
 		if len(newbus.trip)==0:
 			break
 		allbus.append(newbus)
@@ -147,6 +154,7 @@ if __name__ == "__main__":
 			continue
 		for b in allbus:
 			if b.pos == trips['startpos'][i] and b.busytill <= trips['starttime'][i] :
+				print("assigned")
 				b.busytill = trips["starttime"][i] + trips["total_time"][i]
 
 				b.dir=trips['dir'][i]
@@ -154,12 +162,13 @@ if __name__ == "__main__":
 					b.pos="A"
 				else:
 					b.pos=trips['trips'][i][1]
-				b.trip.append(trips["trips"][i])
+				b.trip.append(trips["trips"][i]+"N")
 				b.runtimes.append(trips["traveltime"][i])
 				b.traveltime+=trips["total_time"][i]
 				b.traveltime_org+=trips["total_time"][i]
 
 				done[i]=1
+				print("after ",i)
 				total+=1
 				break
 
@@ -192,7 +201,9 @@ if __name__ == "__main__":
 		}
 	print(num)
 	print([trips['trips'][i] for i in range(len(done)) if done[i]==0])
-	with open("All_results/newbuswise/buswise_9hrs_9am.json", "w") as outfile: 
+	with open("All_results/Buswise_v3/buswise_9hrs_4pm_test.json", "w") as outfile: 
 		json.dump(result, outfile,indent=4)
 	
 	print("toal number of trips ",total_trips)
+
+	print(done[0])

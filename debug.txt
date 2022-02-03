@@ -1,0 +1,816 @@
+=============newbus================
+selected upn:  AJ_UP_0 0
+selected dn :  AJ_DN_120 0
+210
+AJ_UP_0 AJ_DN_120 J 211
+=============== 0 9
+++++++++++++++++++ bus is busy till 210
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_240 0
+selected dn :  AK_DN_345 0
+406
+AJ_UP_240 AK_DN_345 K 436
+=============== 16 31
+++++++++++++++++++ bus is busy till 435
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_435 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+selected up:  AK_UP_465 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+selected up:  AK_UP_495 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+selected up:  AK_UP_525 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AJ_UP_570 0
+selected dn :  AK_DN_675 0
+210
+AJ_UP_570 AK_DN_675 K 780
+=============== 60 75
+++++++++++++++++++ bus is busy till 780
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_795 0
+shift exceeded
+=============newbus================
+selected upn:  AK_UP_15 0
+selected dn :  AK_DN_150 0
+225
+AK_UP_15 AK_DN_150 K 241
+=============== 2 11
+++++++++++++++++++ bus is busy till 240
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_255 0
+selected dn :  AJ_DN_360 0
+436
+AK_UP_255 AJ_DN_360 J 451
+=============== 18 33
+++++++++++++++++++ bus is busy till 450
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_450 0
+shift exceeded
+no dn trip available
+selected up:  AJ_UP_480 0
+shift exceeded
+no dn trip available
+selected up:  AJ_UP_510 0
+shift exceeded
+no dn trip available
+selected up:  AJ_UP_540 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AJ_UP_600 0
+selected dn :  AK_DN_705 0
+210
+AJ_UP_600 AK_DN_705 K 810
+=============== 64 79
+++++++++++++++++++ bus is busy till 810
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_855 0
+shift exceeded
+=============newbus================
+selected upn:  AJ_UP_60 0
+selected dn :  AJ_DN_180 0
+210
+AJ_UP_60 AJ_DN_180 J 271
+=============== 4 13
+++++++++++++++++++ bus is busy till 270
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_270 0
+selected dn :  AK_DN_375 0
+466
+AJ_UP_270 AK_DN_375 K 466
+=============== 20 35
+++++++++++++++++++ bus is busy till 465
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_555 0
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AK_UP_615 0
+selected dn :  AJ_DN_720 0
+195
+AK_UP_615 AJ_DN_720 J 810
+=============== 66 81
+++++++++++++++++++ bus is busy till 810
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_840 0
+shift exceeded
+=============newbus================
+selected upn:  AK_UP_75 0
+selected dn :  AK_DN_210 0
+225
+AK_UP_75 AK_DN_210 K 301
+=============== 6 15
+++++++++++++++++++ bus is busy till 300
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_315 0
+selected dn :  AK_DN_405 0
+481
+AK_UP_315 AK_DN_405 K 496
+=============== 26 39
+++++++++++++++++++ bus is busy till 495
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_585 0
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AK_UP_645 0
+selected dn :  AK_DN_750 0
+210
+AK_UP_645 AK_DN_750 K 855
+=============== 70 83
+++++++++++++++++++ bus is busy till 855
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_855 0
+shift exceeded
+=============newbus================
+selected upn:  AJ_UP_120 0
+selected dn :  AJ_DN_240 0
+210
+AJ_UP_120 AJ_DN_240 J 331
+=============== 8 17
+++++++++++++++++++ bus is busy till 330
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_330 0
+selected dn :  AK_DN_435 0
+526
+AJ_UP_330 AK_DN_435 K 526
+=============== 28 43
+++++++++++++++++++ bus is busy till 525
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_675 0
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AK_UP_705 0
+selected dn :  AK_DN_810 0
+210
+AK_UP_705 AK_DN_810 K 915
+=============== 78 87
+++++++++++++++++++ bus is busy till 915
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_915 0
+shift exceeded
+=============newbus================
+selected upn:  AK_UP_135 0
+selected dn :  AK_DN_255 0
+210
+AK_UP_135 AK_DN_255 K 346
+=============== 10 19
+++++++++++++++++++ bus is busy till 345
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_345 0
+shift exceeded
+no dn trip available
+selected dn :  AJ_DN_450 0
+526
+AK_UP_345 AJ_DN_450 J 541
+=============== 30 45
+++++++++++++++++++ bus is busy till 540
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+ended break
+selected upn:  AJ_UP_660 0
+selected dn :  AJ_DN_780 0
+210
+AJ_UP_660 AJ_DN_780 J 870
+=============== 72 85
+++++++++++++++++++ bus is busy till 870
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_900 0
+shift exceeded
+=============newbus================
+selected upn:  AJ_UP_180 0
+selected dn :  AK_DN_285 0
+195
+AJ_UP_180 AK_DN_285 K 376
+=============== 12 23
+++++++++++++++++++ bus is busy till 375
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_375 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+selected up:  AK_UP_405 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AJ_UP_690 0
+selected dn :  AJ_DN_840 0
+240
+AJ_UP_690 AJ_DN_840 J 930
+=============== 76 89
+++++++++++++++++++ bus is busy till 930
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_930 0
+shift exceeded
+=============newbus================
+selected upn:  AK_UP_195 0
+selected dn :  AJ_DN_300 0
+195
+AK_UP_195 AJ_DN_300 J 391
+=============== 14 25
+++++++++++++++++++ bus is busy till 390
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_390 0
+shift exceeded
+no dn trip available
+selected up:  AJ_UP_420 0
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AJ_UP_720 0
+selected dn :  AK_DN_870 0
+255
+AJ_UP_720 AK_DN_870 K 975
+=============== 80 91
+++++++++++++++++++ bus is busy till 975
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_975 0
+shift exceeded
+=============newbus================
+selected upn:  AK_UP_285 0
+selected dn :  AJ_DN_390 0
+195
+AK_UP_285 AJ_DN_390 J 481
+=============== 22 37
+++++++++++++++++++ bus is busy till 480
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_630 0
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AJ_UP_780 0
+selected dn :  AJ_DN_900 0
+210
+AJ_UP_780 AJ_DN_900 J 990
+=============== 84 93
+++++++++++++++++++ bus is busy till 990
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_990 0
+shift exceeded
+=============newbus================
+selected upn:  AJ_UP_300 0
+selected dn :  AJ_DN_420 0
+210
+AJ_UP_300 AJ_DN_420 J 511
+=============== 24 41
+++++++++++++++++++ bus is busy till 510
+no up trip
+no dn trip available
+selected up:  AJ_UP_840 0
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AJ_UP_900 0
+selected dn :  AK_DN_1005 0
+225
+AJ_UP_900 AK_DN_1005 K 1125
+=============== 92 107
+++++++++++++++++++ bus is busy till 1125
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_1125 0
+shift exceeded
+=============newbus================
+selected upn:  AJ_UP_360 0
+selected dn :  AK_DN_465 0
+195
+AJ_UP_360 AK_DN_465 K 556
+=============== 32 47
+++++++++++++++++++ bus is busy till 555
+selected up:  AK_UP_735 0
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AK_UP_855 0
+selected dn :  AJ_DN_960 0
+210
+AK_UP_855 AJ_DN_960 J 1065
+=============== 90 101
+++++++++++++++++++ bus is busy till 1065
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_1080 0
+shift exceeded
+=============newbus================
+selected upn:  AK_UP_795 0
+selected dn :  AK_DN_915 0
+225
+AK_UP_795 AK_DN_915 K 1021
+=============== 86 95
+++++++++++++++++++ bus is busy till 1020
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_1035 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+selected up:  AK_UP_1065 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+selected up:  AK_UP_1095 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+selected up:  AK_UP_1125 0
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AK_UP_1155 0
+selected dn :  AJ_DN_1260 0
+195
+AK_UP_1155 AJ_DN_1260 J 1350
+=============== 126 141
+++++++++++++++++++ bus is busy till 1350
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_1350 0
+no dn trip available
+selected up:  AJ_UP_1380 0
+no dn trip available
+=============newbus================
+selected upn:  AK_UP_915 0
+selected dn :  AJ_DN_1020 0
+210
+AK_UP_915 AJ_DN_1020 J 1126
+=============== 94 109
+++++++++++++++++++ bus is busy till 1125
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AJ_UP_1140 0
+shift exceeded
+no dn trip available
+selected up:  AJ_UP_1170 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+selected up:  AJ_UP_1200 0
+shift exceeded
+no dn trip available
+shift exceeded
+no dn trip available
+selected up:  AJ_UP_1230 0
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AJ_UP_1260 0
+selected dn :  AK_DN_1365 0
+210
+AJ_UP_1260 AK_DN_1365 K 1470
+=============== 140 155
+++++++++++++++++++ bus is busy till 1470
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+=============newbus================
+selected upn:  AJ_UP_930 0
+selected dn :  AK_DN_1035 0
+225
+AJ_UP_930 AK_DN_1035 K 1156
+=============== 96 111
+++++++++++++++++++ bus is busy till 1155
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+selected up:  AK_UP_1185 0
+shift exceeded
+no dn trip available
+selected up:  AK_UP_1215 0
+shift exceeded
+no dn trip available
+selected up:  AK_UP_1245 0
+shift exceeded
+no dn trip available
+ended break
+selected upn:  AJ_UP_1290 0
+no dn trip available
+selected upn:  AK_UP_1305 0
+no dn trip available
+selected upn:  AJ_UP_1320 0
+no dn trip available
+selected upn:  AK_UP_1335 0
+no dn trip available
+selected upn:  AK_UP_1365 0
+no dn trip available
+selected upn:  AK_UP_1395 0
+no dn trip available
+=============newbus================
+selected upn:  AK_UP_945 0
+selected dn :  AJ_DN_1050 0
+210
+AK_UP_945 AJ_DN_1050 J 1156
+=============== 98 113
+++++++++++++++++++ bus is busy till 1155
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+=============newbus================
+selected upn:  AJ_UP_960 0
+selected dn :  AJ_DN_1080 0
+225
+AJ_UP_960 AJ_DN_1080 J 1186
+=============== 100 117
+++++++++++++++++++ bus is busy till 1185
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+=============newbus================
+selected upn:  AK_UP_975 0
+selected dn :  AK_DN_1095 0
+240
+AK_UP_975 AK_DN_1095 K 1216
+=============== 102 119
+++++++++++++++++++ bus is busy till 1215
+no up trip
+no dn trip available
+selected up:  AK_UP_1275 0
+shift exceeded
+no dn trip available
+=============newbus================
+selected upn:  AJ_UP_990 0
+selected dn :  AJ_DN_1110 0
+225
+AJ_UP_990 AJ_DN_1110 J 1216
+=============== 104 121
+++++++++++++++++++ bus is busy till 1215
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+=============newbus================
+selected upn:  AK_UP_1005 0
+selected dn :  AK_DN_1125 0
+240
+AK_UP_1005 AK_DN_1125 K 1246
+=============== 106 123
+++++++++++++++++++ bus is busy till 1245
+=============newbus================
+selected upn:  AJ_UP_1020 0
+selected dn :  AJ_DN_1140 0
+225
+AJ_UP_1020 AJ_DN_1140 J 1246
+=============== 108 125
+++++++++++++++++++ bus is busy till 1245
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+=============newbus================
+selected upn:  AJ_UP_1050 0
+selected dn :  AJ_DN_1170 0
+225
+AJ_UP_1050 AJ_DN_1170 J 1276
+=============== 112 129
+++++++++++++++++++ bus is busy till 1275
+no up trip
+no dn trip available
+no up trip
+no dn trip available
+=============newbus================
+selected upn:  AJ_UP_1080 0
+selected dn :  AJ_DN_1200 0
+210
+AJ_UP_1080 AJ_DN_1200 J 1291
+=============== 116 133
+++++++++++++++++++ bus is busy till 1290
+no up trip
+no dn trip available
+=============newbus================
+selected upn:  AJ_UP_1110 0
+selected dn :  AJ_DN_1230 0
+210
+AJ_UP_1110 AJ_DN_1230 J 1321
+=============== 120 137
+++++++++++++++++++ bus is busy till 1320
+=============newbus================
+['AJ_UP_0', 'AJ_DN_120', 'AJ_UP_240', 'AK_DN_345', 'AJ_UP_570', 'AK_DN_675']
+['AK_UP_15', 'AK_DN_150', 'AK_UP_255', 'AJ_DN_360', 'AJ_UP_600', 'AK_DN_705']
+['AJ_UP_60', 'AJ_DN_180', 'AJ_UP_270', 'AK_DN_375', 'AK_UP_615', 'AJ_DN_720']
+['AK_UP_75', 'AK_DN_210', 'AK_UP_315', 'AK_DN_405', 'AK_UP_645', 'AK_DN_750']
+['AJ_UP_120', 'AJ_DN_240', 'AJ_UP_330', 'AK_DN_435', 'AK_UP_705', 'AK_DN_810']
+['AK_UP_135', 'AK_DN_255', 'AK_UP_345', 'AJ_DN_450', 'AJ_UP_660', 'AJ_DN_780']
+['AJ_UP_180', 'AK_DN_285', 'AJ_UP_690', 'AJ_DN_840']
+['AK_UP_195', 'AJ_DN_300', 'AJ_UP_720', 'AK_DN_870']
+['AK_UP_285', 'AJ_DN_390', 'AJ_UP_780', 'AJ_DN_900']
+['AJ_UP_300', 'AJ_DN_420', 'AJ_UP_900', 'AK_DN_1005']
+['AJ_UP_360', 'AK_DN_465', 'AK_UP_855', 'AJ_DN_960']
+['AK_UP_795', 'AK_DN_915', 'AK_UP_1155', 'AJ_DN_1260']
+['AK_UP_915', 'AJ_DN_1020', 'AJ_UP_1260', 'AK_DN_1365']
+['AJ_UP_930', 'AK_DN_1035']
+['AK_UP_945', 'AJ_DN_1050']
+['AJ_UP_960', 'AJ_DN_1080']
+['AK_UP_975', 'AK_DN_1095']
+['AJ_UP_990', 'AJ_DN_1110']
+['AK_UP_1005', 'AK_DN_1125']
+['AJ_UP_1020', 'AJ_DN_1140']
+['AJ_UP_1050', 'AJ_DN_1170']
+['AJ_UP_1080', 'AJ_DN_1200']
+['AJ_UP_1110', 'AJ_DN_1230']
+84
+['AJ_UP_0', 'AJ_DN_120', 'AJ_UP_240', 'AK_DN_345', 'AJ_UP_570', 'AK_DN_675'] number 1
+600
+['AK_UP_15', 'AK_DN_150', 'AK_UP_255', 'AJ_DN_360', 'AJ_UP_600', 'AK_DN_705'] number 2
+570
+['AJ_UP_60', 'AJ_DN_180', 'AJ_UP_270', 'AK_DN_375', 'AK_UP_615', 'AJ_DN_720'] number 3
+585
+['AK_UP_75', 'AK_DN_210', 'AK_UP_315', 'AK_DN_405', 'AK_UP_645', 'AK_DN_750'] number 4
+570
+['AJ_UP_120', 'AJ_DN_240', 'AJ_UP_330', 'AK_DN_435', 'AK_UP_705', 'AK_DN_810'] number 5
+600
+['AK_UP_135', 'AK_DN_255', 'AK_UP_345', 'AJ_DN_450', 'AJ_UP_660', 'AJ_DN_780'] number 6
+555
+['AJ_UP_180', 'AK_DN_285', 'AJ_UP_690', 'AJ_DN_840'] number 7
+390
+['AK_UP_195', 'AJ_DN_300', 'AJ_UP_720', 'AK_DN_870'] number 8
+390
+['AK_UP_285', 'AJ_DN_390', 'AJ_UP_780', 'AJ_DN_900'] number 9
+375
+['AJ_UP_300', 'AJ_DN_420', 'AJ_UP_900', 'AK_DN_1005'] number 10
+420
+['AJ_UP_360', 'AK_DN_465', 'AK_UP_855', 'AJ_DN_960'] number 11
+405
+['AK_UP_795', 'AK_DN_915', 'AK_UP_1155', 'AJ_DN_1260'] number 12
+405
+['AK_UP_915', 'AJ_DN_1020', 'AJ_UP_1260', 'AK_DN_1365'] number 13
+420
+['AJ_UP_930', 'AK_DN_1035'] number 14
+225
+['AK_UP_945', 'AJ_DN_1050'] number 15
+210
+['AJ_UP_960', 'AJ_DN_1080'] number 16
+225
+['AK_UP_975', 'AK_DN_1095'] number 17
+225
+['AJ_UP_990', 'AJ_DN_1110'] number 18
+225
+['AK_UP_1005', 'AK_DN_1125'] number 19
+225
+['AJ_UP_1020', 'AJ_DN_1140'] number 20
+225
+['AJ_UP_1050', 'AJ_DN_1170'] number 21
+225
+['AJ_UP_1080', 'AJ_DN_1200'] number 22
+210
+['AJ_UP_1110', 'AJ_DN_1230'] number 23
+210
+84
+['AJ_DN_0', 'AK_DN_30', 'AJ_DN_60', 'AK_DN_90', 'AJ_DN_270', 'AK_DN_315', 'AJ_DN_330', 'AJ_DN_480', 'AK_DN_495', 'AJ_DN_510', 'AK_DN_525', 'AJ_DN_540', 'AK_DN_555', 'AJ_DN_570', 'AK_DN_585', 'AJ_DN_600', 'AK_DN_615', 'AJ_DN_630', 'AK_DN_645', 'AJ_DN_660', 'AJ_DN_690', 'AJ_DN_930', 'AK_DN_945', 'AK_DN_975', 'AJ_DN_990', 'AK_DN_1065', 'AK_DN_1155', 'AK_DN_1185', 'AK_DN_1215', 'AK_DN_1245', 'AK_DN_1275', 'AJ_DN_1290', 'AK_DN_1305', 'AJ_DN_1320', 'AK_DN_1335', 'AJ_DN_1350', 'AJ_DN_1380']
+toal number of trips  84
+[1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 1, 0, 2, 0, 1, 0, 1, 0, 2, 0, 1, 0, 1, 0, 2, 1, 1, 0, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 2, 1, 1, 1, 2, 0, 1, 1, 2, 1, 1, 1, 2, 1, 2, 1, 1, 0, 2, 1, 2, 0, 2, 1, 2, 0, 2, 1, 2, 0, 1, 1, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 1, 2, 0, 2, 2]

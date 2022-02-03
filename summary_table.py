@@ -1,7 +1,7 @@
 import json
 import csv
 
-f = open("All_results/newbuswise/buswise_9hrs.json")
+f = open("All_results/Buswise_v4/buswise_9hrs_9am.json")
 
 data = json.load(f)
 pos = {
@@ -46,6 +46,8 @@ for d in data:
 
     
     tot=end_time-start_time
+    if data[d]["breakstart"]!=-1 and data[d]["breakend"]!=-1:
+        tot-= data[d]["breakend"] - data[d]["breakstart"]
     print(tot)
     cp=tot
     if cp%60<10:
@@ -71,7 +73,7 @@ for d in data:
     file_data["distance travelled"].append(dist)
 
 
-with open("All_results/newbuswise/summary_buswise_9hrs.csv", "w") as outfile:
+with open("All_results/Buswise_v4/summary_buswise_9hrs_9am.csv", "w") as outfile:
     writer = csv.writer(outfile)
     writer.writerow(file_data.keys())
     writer.writerows(zip(*file_data.values()))

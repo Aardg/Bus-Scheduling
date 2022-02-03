@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import operator
 
-f = open("schedule_17hr.json")
+f = open("All_results/newbuswise/buswise_9hrs.json")
 trips = pd.read_csv("traveltime_dir.csv")
 data = json.load(f)
 y_pos=1

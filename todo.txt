@@ -38,3 +38,10 @@ ask prashant sir :
 
 
 4pm and 9am start times
+
+===================================================================
+
+try exhaustive over first 14 starting times
+develop plug and play for minimizing buses
+new charging : 1.75 and 4.5 there is no max for both cases
+time sorted with the new charging criteria

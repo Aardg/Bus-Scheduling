@@ -4,23 +4,22 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import operator
-
-f = open("All_results/newbuswise/buswise_9hrs_9am.json")
-trips = pd.read_csv("traveltime_dir_9am.csv")
+import sys 
+f = open("All_results/Buswise_v4/buswise_9hrs_4pmtest.json")
+trips = pd.read_csv("traveltime_dir_4pm.csv")
 data = json.load(f)
 y_pos=1
 labels=[]
 lab_pos=[]
-
-
-for i in range(9,35):
-
+pol = int(sys.argv[1])
+for i in range(pol,29+pol):
+ 
     if i<10:
         labels.append('0'+str(i%24)+':00')
     else:
         labels.append(str(i%24)+':00')
 
-    lab_pos.append((i-9)*60)
+    lab_pos.append((i-pol)*60)
 
 tot_wait=[]
 for d in data:
@@ -76,23 +75,25 @@ for d in sorted_indices:
            col='darkolivegreen'
         elif dir[i]=='AJ_DN':
             col='yellowgreen'
-    
+
 
         elif dir[i]=='AK_UP':
             col='blue'
         elif dir[i]=='AK_DN':
             col='cyan'
 
-        if starttimes[i]>=1440 and col=='yellowgreen':
-            col='yellow'
-        if starttimes[i]>=1440 and col=='cyan':
-            col='purple'
+        if (dir[i]=='AJ_DN' or dir[i]=='AK_DN') and starttimes[i]<=105:
+            starttimes[i]+=1440
+        # if starttimes[i]>=1440 and col=='yellowgreen':
+        #     col='yellow'
+        # if starttimes[i]>=1440 and col=='cyan':
+        #     col='purple'
     
 
         plt.barh(y=y_pos, left=starttimes[i],width=runtimes[i],height=1, color=col)
         plt.barh(y=y_pos, left=starttimes[i]+runtimes[i],width=buftimes[i],height=1, color='black')
     
-    if data[d]["breakend"]-data[d]["breakstart"]>=0:
+    if abs(data[d]["breakend"])>abs(data[d]["breakstart"]):
         plt.barh(y=y_pos, left=data[d]["breakstart"],width=data[d]["breakend"]-data[d]["breakstart"],height=1, color='gold')
 
 
@@ -100,5 +101,8 @@ for d in sorted_indices:
 
     y_pos+=2
 plt.xticks(lab_pos,labels)
-plt.grid()
+y_pos = [x for x in range(1,len(sorted_indices)*2,2)]
+y_lab = [x for x in range(1,len(sorted_indices)+1)]
+plt.yticks(y_pos,y_lab)
+plt.grid(axis='x')
 plt.show()

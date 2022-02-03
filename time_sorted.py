@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-trips = pd.read_csv("tt_dir_4pm.csv")
+trips = pd.read_csv("traveltime_dir_9am.csv")
 
 class bus:
 
@@ -47,7 +47,7 @@ def HasValid(pos, q ,i):
 		for b in q[pos]:
 			if b.busytill<=trips["starttime"][i]:
 				if b.pos!="A":
-					if trips["starttime"][i] + 2*trips["total_time"][i] - b.start_time  < 600:
+					if trips["starttime"][i] + 2*trips["total_time"][i] - b.start_time  < 540:
 						flag=1
 						break
 					else:
@@ -72,7 +72,7 @@ def check_charged(q,i):
 
 	for j in range(len(q["C"])):
 		print( trips["starttime"][i]-q["C"][j].shift_break_start)
-		if trips["starttime"][i]-q["C"][j].shift_break_start >= 120:
+		if trips["starttime"][i]-q["C"][j].shift_break_start >= 105:
 			return 0
 
 
@@ -141,7 +141,7 @@ if __name__ == "__main__":
 					if queue[pos][b].pos=="A":
 						don=1
 					else:
-						if trips["starttime"][i] + 2*trips["total_time"][i] - queue[pos][b].start_time < 600:
+						if trips["starttime"][i] + 2*trips["total_time"][i] - queue[pos][b].start_time < 540:
 							don=1
 						else:
 							overworked.append(b)
@@ -233,7 +233,7 @@ if __name__ == "__main__":
 				"breakend" : int(b.shift_break_end)
 			}
 	print(num)
-	with open("schedule_17hr_4pm.json", "w") as outfile: 
+	with open("All_results/TSR_new/time_sorted_9am.json", "w") as outfile: 
 		json.dump(result, outfile,indent=4)	
 	# print(result)
 	# print(num)
